@@ -1,0 +1,1230 @@
+*
+{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+}
+#transform 
+{
+    text-align: center;
+}
+.container .transform
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(9, 100px);
+}
+
+
+
+.container .transform .form1
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form1 .f1-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form1 .f1-box:hover
+{
+    transform: rotate(45deg);
+}
+.container .transform .form1 .f1-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form1 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form2
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form2 .f2-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form2 .f2-box:hover
+{
+    transform: rotateX(45deg);
+}
+.container .transform .form2 .f2-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form2 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form3
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form3 .f3-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form3 .f3-box:hover
+{
+    transform: rotateY(45deg);
+}
+.container .transform .form3 .f3-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form3 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form4
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form4 .f4-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form4 .f4-box:hover
+{
+    transform: rotateZ(45deg);
+}
+.container .transform .form4 .f4-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form4 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form5
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form5 .f5-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form5 .f5-box:hover
+{
+    transform: scale(2);
+}
+.container .transform .form5 .f5-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form5 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form6
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form6 .f6-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form6 .f6-box:hover
+{
+    transform: scaleX(2);
+}
+.container .transform .form6 .f6-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form6 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form7
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form7 .f7-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form7 .f7-box:hover
+{
+    transform: scaleY(2);
+}
+.container .transform .form7 .f7-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form7 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form8
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form8 .f8-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form8 .f8-box:hover
+{
+    transform: skew(45deg, 45deg);
+}
+.container .transform .form8 .f8-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form8 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form9
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form9 .f9-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form9 .f9-box:hover
+{
+    transform: skewX(45deg);
+}
+.container .transform .form9 .f9-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form9 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form10
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form10 .f10-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form10 .f10-box:hover
+{
+    transform: skewY(45deg);
+}
+.container .transform .form10 .f10-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form10 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form11
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form11 .f11-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form11 .f11-box:hover
+{
+    transform: translate(45px);
+}
+.container .transform .form11 .f11-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form11 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form12
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form12 .f12-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form12 .f12-box:hover
+{
+    transform: translateX(45px);
+}
+.container .transform .form12 .f12-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form12 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form13
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form13 .f13-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form13 .f13-box:hover
+{
+    transform: translateY(45px);
+}
+.container .transform .form13 .f13-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form13 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .transform .form14
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform .form14 .f14-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform .form14 .f14-box:hover
+{
+    transform: matrix(2, 2, 0, 2, 45, 0);
+}
+.container .transform .form14 .f14-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform .form14 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+.container .perspective100
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(8, 100px);
+    padding: 0 300px;
+}
+
+.container .perspective100
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#perspective100
+{
+    text-align: center;
+}
+
+
+.container .perspective100 .form15
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .perspective100 .form15 .f15-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .perspective100 .form15 .f15-box:hover
+{
+    transform: rotateX(90deg);
+}
+.container .perspective100 .form15 .f15-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .perspective100 .form15 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+.container .perspective100 .form16
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .perspective100 .form16 .f16-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .perspective100 .form16 .f16-box:hover
+{
+    transform: rotateX(90deg);
+}
+.container .perspective100 .form16 .f16-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .perspective100 .form16 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+.container .transform-origin
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(9, 100px);
+}
+
+
+#transform-origin
+{
+    text-align: center;
+}
+
+
+
+
+.container .transform-origin .form17
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form17 .f17-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form17 .f17-box:hover
+{
+    transform: rotate(45deg);
+    transform-origin:100% 0 0;
+}
+.container .transform-origin .form17 .f17-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form17 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form18
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form18 .f18-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form18 .f18-box:hover
+{
+    transform-origin:0 100% 0;
+    transform: rotate(45deg);
+}
+.container .transform-origin .form18 .f18-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form18 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form19
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form19 .f19-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form19 .f19-box:hover
+{
+    transform-origin:100% 0 0;
+    transform: rotateX(45deg);
+}
+.container .transform-origin .form19 .f19-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form19 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form20
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form20 .f20-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form20 .f20-box:hover
+{
+    transform-origin:0 100% 0;
+    transform: rotateX(45deg);
+}
+.container .transform-origin .form20 .f20-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form20 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form21
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form21 .f21-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form21 .f21-box:hover
+{
+    transform-origin:100% 0 0;
+    transform: rotateY(45deg);
+}
+.container .transform-origin .form21 .f21-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form21 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form22
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form22 .f22-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form22 .f22-box:hover
+{
+    transform-origin:0 100% 0;
+    transform: rotateY(45deg);
+}
+.container .transform-origin .form22 .f22-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form22 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form23
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form23 .f23-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form23 .f23-box:hover
+{
+    transform-origin:0 100% 0;
+    transform: scale(2);
+}
+.container .transform-origin .form23 .f23-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form23 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form24
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form24 .f24-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form24 .f24-box:hover
+{
+    transform-origin: 100% 0 0;
+    transform: scaleX(2);
+}
+.container .transform-origin .form24 .f24-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form24 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form25
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form25 .f25-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form25 .f25-box:hover
+{
+    transform-origin:0 100% 0;
+    transform: scaleX(2);
+}
+.container .transform-origin .form25 .f25-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form25 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form26
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form26 .f26-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form26 .f26-box:hover
+{
+    transform-origin:100% 0 0;
+    transform: scaleY(2);
+}
+.container .transform-origin .form26 .f26-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form26 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+.container .transform-origin .form27
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+    /* align-items: center; */
+}
+.container .transform-origin .form27 .f27-box
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 100, 255, 0.7);
+    transition: transform 0.5s;
+    z-index: 1000;
+    transition: all 0.5s;
+}
+.container .transform-origin .form27 .f27-box:hover
+{
+    transform-origin:0 100% 0;
+    transform: scaleY(2);
+}
+.container .transform-origin .form27 .f27-box2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(182, 182, 182);
+}
+.container .transform-origin .form27 p
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+
+
+
+

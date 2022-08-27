@@ -1,0 +1,304 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------------------------------------------------------Facebook--------------------------------------------------------------------------- */
+.container .facebook
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+    overflow: hidden; 
+    box-shadow: 0 0 5px #222;
+    transition: transform 1s;
+    margin: 0 10px 0 0;
+}
+.container .facebook i 
+{
+    font-size: 4rem;
+    z-index: 1000;
+    transition: color 1s;
+}
+.container .facebook .fc-bcg
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
+    transform:translate(-185px, 200px);
+    clip-path: circle(50% at 50% 50%);
+    transition: transform 1s;
+}
+.container .facebook:hover .fc-bcg
+{
+    transform: translate(5px, 1px);
+}
+.container .facebook:hover
+{
+    color: #fff;
+}
+.container .facebook:hover
+{
+    transform: scale(1.1);
+}
+/* ------------------------------------------------------------------------Twitter--------------------------------------------------------------------------- */
+.container .twitter
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(68, 199, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+    overflow: hidden; 
+    box-shadow: 0 0 5px #222;
+    transition: transform 1s;
+    margin: 0 10px 0 0;
+}
+.container .twitter i 
+{
+    font-size: 4rem;
+    z-index: 1000;
+    transition: color 1s;
+}
+.container .twitter .tw-bcg
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(68, 199, 255);
+    transform:translate(-185px, 200px);
+    clip-path: circle(50% at 50% 50%);
+    transition: transform 1s;
+}
+.container .twitter:hover .tw-bcg
+{
+    transform: translate(5px, 1px);
+}
+.container .twitter:hover
+{
+    color: #fff;
+}
+.container .twitter:hover
+{
+    transform: scale(1.1);
+}
+/* ------------------------------------------------------------------------Google+--------------------------------------------------------------------------- */
+.container .google
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ED3C27;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+    overflow: hidden; 
+    box-shadow: 0 0 5px #222;
+    transition: transform 1s;
+    margin: 0 10px 0 0;
+}
+.container .google i 
+{
+    font-size: 4rem;
+    z-index: 1000;
+    transition: color 1s;
+}
+.container .google .g-bcg
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #ED3C27;
+    transform:translate(-185px, 200px);
+    clip-path: circle(50% at 50% 50%);
+    transition: transform 1s;
+}
+.container .google:hover .g-bcg
+{
+    transform: translate(5px, 1px);
+}
+.container .google:hover
+{
+    color: #fff;
+}
+.container .google:hover
+{
+    transform: scale(1.1);
+}
+/* ------------------------------------------------------------------------Dribbble--------------------------------------------------------------------------- */
+.container .dribbble
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #EA6493;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+    overflow: hidden; 
+    box-shadow: 0 0 5px #222;
+    transition: transform 1s;
+    margin: 0 10px 0 0;
+}
+.container .dribbble i 
+{
+    font-size: 4rem;
+    z-index: 1000;
+    transition: color 1s;
+}
+.container .dribbble .dr-bcg
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #EA6493;
+    transform:translate(-185px, 200px);
+    clip-path: circle(50% at 50% 50%);
+    transition: transform 1s;
+}
+.container .dribbble:hover .dr-bcg
+{
+    transform: translate(5px, 1px);
+}
+.container .dribbble:hover
+{
+    color: #fff;
+}
+.container .dribbble:hover
+{
+    transform: scale(1.1);
+}
+/* ------------------------------------------------------------------------Skype--------------------------------------------------------------------------- */
+.container .skype
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #00A5EA;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+    overflow: hidden; 
+    box-shadow: 0 0 5px #222;
+    transition: transform 1s;
+    margin: 0 10px 0 0;
+}
+.container .skype i 
+{
+    font-size: 4rem;
+    z-index: 1000;
+    transition: color 1s;
+}
+.container .skype .s-bcg
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #00A5EA;
+    transform:translate(-185px, 200px);
+    clip-path: circle(50% at 50% 50%);
+    transition: transform 1s;
+}
+.container .skype:hover .s-bcg
+{
+    transform: translate(5px, 1px);
+}
+.container .skype:hover
+{
+    color: #fff;
+}
+.container .skype:hover
+{
+    transform: scale(1.1);
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+.container .next-hometask
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;  
+    overflow: hidden; 
+    box-shadow: 0 0 5px #222;
+    transition: transform 1s;
+    margin: 0 10px 0 0;
+}
+.container .next-hometask i 
+{
+    font-size: 4rem;
+    z-index: 1000;
+    transition: color 1s;
+}
+.container .next-hometask p 
+{
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 7px 0;
+    font-size: 13px;
+    z-index: 1000;
+    color: white;
+}
+.container .next-hometask a
+{
+    color: rgb(35, 35, 35);
+}
+.container .next-hometask .nh-bcg
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transform:translate(-185px, 200px);
+    clip-path: circle(50% at 50% 50%);
+    transition: transform 1s;
+}
+.container .next-hometask:hover .nh-bcg
+{
+    transform: translate(5px, 1px);
+}
+.container .next-hometask a:hover
+{
+    color: #fff;
+}
+.container .next-hometask:hover
+{
+    transform: scale(1.1);
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
